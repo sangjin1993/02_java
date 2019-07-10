@@ -19,14 +19,15 @@ public class NineNineBreak {
 		System.out.println("== 레이블과 함께 쓰는 break==");
 		
 		//외부 for loop : 단을 결정
-		OUT : for (int stage = 2; stage < 10; stage++) {
+		 for (int stage = 2; stage < 10; stage++) {
 			//단의 제목 출력
 			System.out.printf("%n%d 단%n", stage);
 			
 			//내부 for loop : 1 ~ 9 까지 곱해지는 수를 반복
-			IN : for(int times = 1; times < 10; times++) {
+			 for(int times = 1; times < 10; times++) {
 				if (stage * times > 50) {
-					break OUT;
+					break ;
+					
 				}
 				System.out.printf("%d x %d = %2d%n", stage, times, (stage * times));
 			}// end inner for
