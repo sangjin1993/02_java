@@ -20,6 +20,7 @@ public class BooleanTest {
 		System.out.println("isExists=" + isExists);
 		System.out.println("isHave=" + isHave);
 		System.out.println("isEnd=" + isEnd);
+		System.out.println(isLikeBaseball+"isLikeBaseball"+isLikeBaseball);
 	}
 
 }

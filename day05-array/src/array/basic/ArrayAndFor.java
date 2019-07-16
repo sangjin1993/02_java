@@ -31,8 +31,11 @@ public class ArrayAndFor {
 		//4.합산 출력
 		System.out.printf("배열된 원소의 합은 %d 입니다", summary);
 		
+		for (int num: numbers) {
+			System.out.printf("num" + num);
+		}
 		
 		
-	},
+	}
 
 }

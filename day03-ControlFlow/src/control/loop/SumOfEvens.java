@@ -7,6 +7,7 @@ public class SumOfEvens {
 		int sum = 2;
 		
 		while(num <= 100) {
+			System.out.printf("%d = %d%n", num, num);
 			sum += num;
 			num += 2;
 		}
