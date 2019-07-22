@@ -25,7 +25,7 @@ public class Car {
 		velocity += value;
 		
 		return velocity;
-		
+		}	
 		
 	//(2 정지 기능 : 속도를 완전히
 		public void stop() {
@@ -33,15 +33,15 @@ public class Car {
 		}
 		
 		// (3) 차의 별명을 설정하는 기능 : nickname 필드에 값을 저장
-		public void setNickname(String Nickname) {
-			nickname = Nickname;
+		public void setNickname(String carnickname) {
+			nickname = carnickname;
 		}
 		
 		public void print() {
 			System.out.printf("이 차의 현재 속도 : %d km/h, 차의 별명:%s %n%n", velocity, nickname);
 		}
 		
-	}
+	
 	
 	
 	

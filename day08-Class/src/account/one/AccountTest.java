@@ -46,7 +46,7 @@ public class AccountTest {
 		
 		System.out.println("================");
 		// 4) 계좌에 5000원 입금
-		System.out.println("account에 5,00원 입금");
+		System.out.println("account에 5,000원 입금");
 		account.deposit(5000);
 		
 		// 5) 입금 후 상태 출력

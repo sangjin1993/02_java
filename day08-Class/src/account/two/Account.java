@@ -29,8 +29,8 @@ public class Account {
 	 * 			 매개변수 목록이 비어있는 생성자
 	 */
 	Account(){
-		accNumber = 0;
-		balance = 0;
+//		accNumber = 0;
+//		balance = 0;
 	}
 	/**
 	 * 계좌 번호, 계좌 잔액을 매개변수로 받아서
