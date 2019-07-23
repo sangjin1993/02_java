@@ -22,11 +22,18 @@ public class OreoBox {
 	// TODO 오레오 박스에
 	// 오레오 쿠키를 1개씩 추가, 삭제, 수정, 꺼내(get)거나
 	public void add(Oreo oreo) {
+		Oreo[] newOreos = new Oreo[oreos.length + 1];
 		
+		for(int idx = 0; idx < oreos.length; idx++) {
+			newOreos[idx] = oreos[idx];
+		}
+		newOreos[newOreos.length - 1] = oreo;
+		this.oreos = newOreos;
 	}
 	
 	public void remove(Oreo oreo) {
-		
+		Oreo[] newOreos;
+		int i
 	}
 	
 	public void set(Oreo oreo) {
@@ -38,6 +45,6 @@ public class OreoBox {
 	}
 	
 	public Oreo[] getAllOreos() {
-		return null;
+		return this.oreos;
 	}
 }
