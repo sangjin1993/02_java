@@ -51,10 +51,10 @@ package product;
 public class Product {
 
 	// 1. 멤버 변수 선언부
-	String pcode;
-	String pname;
-	int price;
-	int quantity;
+	private String pcode;
+	private String pname;
+	private int price;
+	private int quantity;
 	
 	// 2. 생성자 선언부
 	// (1) 기본 생성자
@@ -125,5 +125,41 @@ public class Product {
 		String strProduct = String.format("제품 정보 [제품코드 : %s, 제품명 : %s, 가격 : %d, 재고수량 : %d]", pcode, pname, price, quantity);
 		return strProduct;
 	}
+
+	
+	// 접근자, 수정자
+	public String getPcode() {
+		return pcode;
+	}
+
+	public void setPcode(String pcode) {
+		this.pcode = pcode;
+	}
+
+	public String getPname() {
+		return pname;
+	}
+
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	
+	
 	
 }
